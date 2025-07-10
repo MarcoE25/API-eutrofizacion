@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from app.predict import predecir_P_tot, predecir_N_tot
 
+
 app = FastAPI(title="API para predicción del Nitrogeno y Fosforo total")
 
 # Ajusta los campos de entrada según tus variables reales

@@ -1,4 +1,5 @@
 fastapi
+gdown
 uvicorn
 scikit-learn
 joblib
